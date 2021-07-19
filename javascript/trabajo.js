@@ -1,3 +1,4 @@
+//un comentario
 let edad = 24;
 let numeroDeCedula = 24339383;
 let nombreCompleto = "Jeny Alejandra León Ortiz";
