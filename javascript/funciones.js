@@ -1,7 +1,7 @@
  //ejecucion de una accion para esperar un resultado
- // 2 tipos de funciones declarativas y expresivas
+ // 2 tipos de funciones declarativas y expresivas o anonimas
  
- // Funcion declarativa: Se hacen con la palabra reservada function 
+ // Funcion declarativa: Se hacen con la palabra reservada function  
  // hoisting= estudia las formas como estan declaradas las variables
  // Interpolación es la combinacion de cadenas de texto con variables, se obtiene con las comillas invertidas a la izquierda ``
  /*// 1) Haga una función que permita recibir 2 parámetros numéricos y haga una operación arimética de suma.
@@ -11,10 +11,20 @@
 ///////si es mayor que le permita ejercer al derecho al voto y haga una funcion que permita votar por un candidato que previamente se encontraba postulado, 
 ///////si no cumple con su mayoria de edad muestre en pantalla por que no puede votar, 
 
+
+//funciones declarativas
+
+//typeof 
+/*var a = 4;
+var b= "4";
+if (typeof a == "number")
+{
+
+}
+*/
+
 let candidato1 = "Oscar Alberto Garcia";
 let candidato2 = "Katherine Garcia León"
-
-
 
 
 function ValidarMayorEdad(edad)
@@ -24,19 +34,49 @@ function ValidarMayorEdad(edad)
 
 function votar(edad,candidato)
 {
-     ValidarMayorEdad(edad) ? console.log(`Usted ha votado por ${candidato}`) 
-                            : console.log(`Usted tiene ${edad} años y no puede votar`);   
+    if(edad != undefined && candidato != undefined)
+            
+    {
+        if(typeof edad == "number" && typeof candidato == "string")
+        {
+            ValidarMayorEdad(edad) ? console.log(`Usted ha votado por ${candidato}`) 
+            : console.log(`Usted tiene ${edad} años y no puede votar`);
+        }
+        else
+        {
+            console.log(`En ${edad} debes colocar un numero y en ${candidato} debes colocar letras`);
+        }
+          
+    }
+      else
+      {
+          console.log("Todos los parametros son necesarios");
+      }
+                                 
 }
+
+votar(25,candidato2);
+
+
 
 //votar(15,candidato2);
 
-let presente = true;
+
+
+
+
+
+
+
+
+
+/*let presente = true;
 
 function saludar(nombre)
 {
 
     presente && nombre!='' ? console.log(`Hola querido profesor ${nombre}`) 
-                           +: console.log(`Profesor ausente`);
+                           : console.log(`Profesor ausente`);
     
 }
 saludar("");

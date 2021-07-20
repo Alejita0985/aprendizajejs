@@ -5,7 +5,7 @@
 // var Se puede llamar y declara de forma local y global y puede ser cambiada a futuro
 // const constante solo se puede asignar una sola vez y no se puede reasignar en el futuro
 // Para mostrar una variable en pantalla se utiliza console.log() texto plano console.error() pintado de rojo console.warn() pintado de naranja
-// javascript es un lenguaje de programacion orientado a objetos, debilmente tipado, fue creado para volver dinamicos los sitios desarrollados en html o las paginas web o los sitios web
+// javascript es un lenguaje de programacion orientado a objetos, debilmente tipado, fue creado para volver dinamicos los sitios desarrollados en html o las paginas web o los sitios web, no necesita compilarse para trabajar.
 // javascript tiene presencia del lado del cliente y del lado del servidor
 // cliente=navegador web     servidor= nodejs
 
