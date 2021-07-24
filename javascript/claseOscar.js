@@ -144,8 +144,9 @@ let sanciones ={
 'incumplidas':3000,
 }
 }
-EPS.sanciones = sanciones;  //para agregar atributos a un objeto.
-//console.log(EPS);
+EPS.sanciones = sanciones;  
+//para agregar atributos a un objeto.
+console.log(EPS)
 
     
     
