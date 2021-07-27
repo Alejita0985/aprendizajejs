@@ -3,12 +3,20 @@ let cortina = {
     "tela" : "lino",
     "ancho" : {
         "medida" : 5,
+<<<<<<< HEAD
+        "tipoMedida" : "metros",
+=======
         "tipoMedida" : "metros"
     },
+>>>>>>> 0261151ec4690977edd1252de93868432c14d504
         "alto" : {
             "medida" : 2,
             "tipoMedida" : "metros",
         }
     }
+<<<<<<< HEAD
+}
+=======
 
+>>>>>>> 0261151ec4690977edd1252de93868432c14d504
 console.log(`Cortina color ${cortina.color} tiene de ancho ${cortina.ancho.medida} ${cortina.ancho.tipoMedida} y de alto ${cortina.ancho.alto.medida} ${cortina.ancho.alto.tipoMedida}`);

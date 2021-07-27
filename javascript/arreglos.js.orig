@@ -1,19 +1,41 @@
 // es una estructura de datos, puede contener objetos o strings, su estructura se conoce como corchetes []
+<<<<<<< HEAD
+=======
+//los arreglos siempre inician en 0 e  incrementan de uno en uno
+>>>>>>> 0261151ec4690977edd1252de93868432c14d504
 // .length() -> se usa para medir el tamaño de un arreglo.
 // .push() -> se usa para añadir uno o mas elementos al arreglo inicial, colocandolos en la última posición, esto devolverá el arreglo con el nuevo tamaño
 // .pop() -> elimina el último elemento del arreglo.
 // .unshift() -> se usa para añadir un elemento al arreglo inicial, colocandolo al principio del arreglo.
+<<<<<<< HEAD
 // .shift() -> se usa para eliminar el primer elento del arreglo.
 // .indexOf() -> se usa para comprobar la posición del índice de un elemento en el arreglo.
 
 
 
+=======
+// .shift() -> se usa para eliminar el primer elemento del arreglo.
+// .indexOf() -> se usa para comprobar la posición del índice de un elemento en el arreglo.
+
+>>>>>>> 0261151ec4690977edd1252de93868432c14d504
 // formas de ciclos
 // for(indice, variable operador logico longitud del arreglo, incremental){}
 // for (variable, arreglo){}
 // while(validacion){}
 
+<<<<<<< HEAD
 // para leer un arreglo es necesario acceder a la posición exacta, si cuyo arreglo tiene objecto se navegan a través de puntos (.)
+=======
+//declaro variable let nombre
+//Inicializar variable nombres = "daniel"
+//reasignar una variable y cambiarle su tipo  
+//Para navegar con los arrglos es necesario saber la posición exacta.
+// para leer un arreglo es necesario accder a la posiciòn exacta, si cuyo arreglo tiene objetos se navega a traves de puntos (.)
+
+nombres = ["daniel", "oscar", "Alejandra", "Juan Pablo"];
+console.log(nombres);
+nombres.pop();
+>>>>>>> 0261151ec4690977edd1252de93868432c14d504
 
 let avion = {
 
@@ -83,6 +105,7 @@ let avion = {
 
 console.log(avion.tripulacion[0].cabina[1].copiloto.nombre);
 
+<<<<<<< HEAD
 // nombre de una azafata y nombre de piloto
 
 
@@ -90,6 +113,8 @@ console.log(avion.tripulacion[0].cabina[0].piloto.nombre);
 
 console.log(avion.tripulacion[1].azafatas[1].nombre);
 
+=======
 
 
 //tarea nombre de una azafata y el nombre del piloto
+>>>>>>> 0261151ec4690977edd1252de93868432c14d504
