@@ -6,7 +6,7 @@ if(enElAire)
 {
     aterrizar = true;
     despegar =false;
-    enElAire = false;
+    enElAire = true;
 }
 else
 {
